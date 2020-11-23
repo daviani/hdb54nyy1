@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-logo {
+  position: absolute;
+  left: 7px;
+  top: 0;
+  height: 50px;
+  pointer-events: none;
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 18s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1, h2,h3, h4, tr, p {
+  color: #1c2b4a;
+}
+.jumbotronHome {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.cardSet{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardApartment {
+  position: relative;
+  width: 250px;
+  min-height: 80px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1em;
+  box-shadow: 3px 3px 10px -1px #9E9E9E;
+}
+.sizeImgCard {
+  height: 180px;
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.form-group {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customerMain {
+  padding-top: 15px;
+  width: 100%;
+  border: 3px solid #90989a;
+  border-radius: 2rem;
+}
+
+
